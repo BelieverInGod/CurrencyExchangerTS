@@ -50,3 +50,23 @@ option {
     cursor: pointer;
     border-radius: 15px;
 }
+
+@media screen and (max-width: 1000px) {
+    .box {
+        height: 100px;
+        width: 45%;
+        height: 200px;
+    }
+    .input {
+        font-size: 15px;
+        width: 25%;
+        height: 50px;
+    }
+
+    select {
+        width: 50%;
+        font-size: 15px;
+        height: 50px;
+    }
+
+}
