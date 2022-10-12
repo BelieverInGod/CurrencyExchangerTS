@@ -1,0 +1,10 @@
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: -1;
+    justify-content: space-around;
+    min-height: 100%;
+    width: 100%;
+}

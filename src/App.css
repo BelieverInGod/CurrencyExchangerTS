@@ -1,0 +1,20 @@
+.App {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.App-header {
+    min-height: 50vh;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-top: 40px;
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
