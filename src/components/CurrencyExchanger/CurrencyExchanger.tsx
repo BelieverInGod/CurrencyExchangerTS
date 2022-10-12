@@ -51,7 +51,7 @@ function CurrencyExchanger() {
         <div className="parent">
             <div className="box">
                 <label htmlFor="input1">
-                    <select onClick={changeCurrency}>
+                    <select>
                         <option value="UAH">UAH</option>
                     </select>
                 </label>
