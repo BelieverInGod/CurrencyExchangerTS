@@ -8,7 +8,7 @@
   height: 300px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 15px 10px 30px rgba(0, 0, 0, 2);
-
+  position: relative;
 }
 
 .text {
@@ -35,12 +35,12 @@
 }
 
 .information {
+  margin-top: 30px;
   border-radius: 15px;
   padding-top: 5px;
   width: 25%;
   height: 50px;
   align-items: center;
-  margin: 30px 60px;
   background-color: rgba(255, 255, 255, 0.5);
   font-size: calc(10px + 2vmin);
   color: rgb(0, 0, 0);
@@ -63,9 +63,27 @@
 }
 
 .bg-decoration {
-  width: 20%;
-  height: 50%;
+  width: 25%;
+  height: 100%;
   position: absolute;
-  left: 12%;
-  top: 12%;
+  left: -10%;
+  bottom: -50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .text {
+    font-size: 25px;
+  }
+  .information {
+    font-size: 15px;
+  }
+  .bg-decoration {
+    width: 25%;
+    height: 50%;
+    left: -10%;
+    bottom: -20%;
+  }
+  .container {
+    height: 200px;
+  }
 }

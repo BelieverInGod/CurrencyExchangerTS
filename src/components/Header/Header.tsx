@@ -38,8 +38,8 @@ function HeaderCurrency() {
             <div className="containerInf">
                 <h2 className="information text">USD: <span className='col'>{currensyUSD}</span></h2>
                 <h2 className="information text">EUR: <span className='col'>{currencyEUR}</span></h2>
+                <img className="bg-decoration" src={decoration} alt="money"/>
             </div>
-            <img className="bg-decoration" src={decoration} alt="money"/>
         </div>
     );
 }
