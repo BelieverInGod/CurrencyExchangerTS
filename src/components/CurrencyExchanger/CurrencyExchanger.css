@@ -53,9 +53,10 @@ option {
 
 @media screen and (max-width: 1000px) {
     .box {
+        padding-top: 10px;
         height: 100px;
         width: 45%;
-        height: 200px;
+        height: 150px;
     }
     .input {
         font-size: 15px;
